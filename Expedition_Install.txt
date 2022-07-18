@@ -1,0 +1,11 @@
+Palo alto Expedition Tools ( config migrate to palo alto FW)
+
+Step-1 - firstly need to install ubuntu 20.04 vm and create user name - expetidion with sudo access
+Step-2 - login to vm and type in terminal 
+	 - wget https://conversionupdates.paloaltonetworks.com/expedition1_Installer_latest.tgz
+	 - tar -zxvf expedition1_Installer_latest.tgz
+	 - cd expedition1_Installer_v2.1/
+	 - chmod 755 initSetup_v2.0.sh
+	 - sudo sh ./initSetup_v2.0.sh
+Step-3 - Login with ip (https://ip-address)
+	 
